@@ -1,0 +1,23 @@
+<div class="form">
+<mat-card class="card">
+    <mat-card-title>Sing up</mat-card-title>
+    <mat-card-content>
+        <div class="container">
+            <!-- campo name-->
+            <mat-form-field>
+                <input [(ngModel)]="singUpUser.name" matInput placeholder="Name">
+            </mat-form-field>
+            <!-- campo email-->
+            <mat-form-field>
+                <input [(ngModel)]="singUpUser.email" matInput placeholder="Email">
+            </mat-form-field>
+            <!-- campo password-->
+            <mat-form-field>
+                <input [(ngModel)]="singUpUser.password" matInput placeholder="Password">
+            </mat-form-field>
+        </div>
+    </mat-card-content>
+</mat-card>
+
+</div>
+
